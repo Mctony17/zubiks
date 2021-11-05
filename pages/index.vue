@@ -19,20 +19,32 @@
         alt="logo"
       />
       <div class="flex items-center space-x-6">
-        <n-link class="text-white md:text-lg font-semibold tracking-wide" to="#about">ABOUT US</n-link>
-        <n-link class="text-white md:text-lg font-semibold tracking-wide" to="#gallery">GALLERY</n-link>
-        <n-link class="text-white md:text-lg font-semibold tracking-wide" to="#contact">CONTACT</n-link>
-      
+        <n-link
+          class="text-white md:text-lg font-semibold tracking-wide"
+          to="#about"
+          >ABOUT US</n-link
+        >
+        <n-link
+          class="text-white md:text-lg font-semibold tracking-wide"
+          to="#gallery"
+          >GALLERY</n-link
+        >
+        <n-link
+          class="text-white md:text-lg font-semibold tracking-wide"
+          to="#contact"
+          >CONTACT</n-link
+        >
       </div>
     </div>
-    <div
-      class="relative min-h-screen bg-fixed bg-cover bg-center"
-      style="
-        background-image: url('https://res.cloudinary.com/mctony17/image/upload/v1636107610/zubiks/banner3.jpg');
-      "
-    ></div>
+    <div class="relative w-full h-screen bg-fixed bg-cover bg-center">
+      <img
+        class="w-full h-screen bg-fixed bg-cover bg-center"
+        src="https://res.cloudinary.com/mctony17/image/upload/v1636107610/zubiks/banner3.jpg"
+        alt="backgrod image"
+      />
+    </div>
     <div class="absolute inset-0">
-      <br /><br /><br /><br />
+      <br /><br /><br /><br /><br><br>
       <div
         class="
           p-2
@@ -201,6 +213,11 @@
             </div>
           </div>
         </div>
+        <div>
+          <h3 class="tracking-wider text-center mt-8 italic">
+            Contact the DEVELOPER: matgold17@gmail.com
+          </h3>
+        </div>
       </div>
     </div>
   </div>
@@ -210,15 +227,42 @@
 export default {
   data: () => {
     return {
-      images: ["zubiks/z1", "zubiks/z2", "zubiks/z3", "zubiks/z4",
-      "zubiks/z5", "zubiks/z6", "zubiks/z7", "zubiks/z8", "zubiks/z9", "zubiks/z10",
-      "zubiks/z11", "zubiks/z12", "zubiks/z13", "zubiks/z14",
-      "zubiks/z15", "zubiks/z16", "zubiks/z17", "zubiks/z18",
-      "zubiks/z19", "zubiks/z20", "zubiks/z21", "zubiks/z22",
-      "zubiks/z23", "zubiks/z24", "zubiks/z25", "zubiks/z26",
-      "zubiks/z27", "zubiks/z28", "zubiks/z31", "zubiks/z33",
-      "zubiks/z34", "zubiks/z35", "zubiks/z36", "zubiks/z38",
-      "zubiks/z41",
+      images: [
+        "zubiks/z1",
+        "zubiks/z2",
+        "zubiks/z3",
+        "zubiks/z4",
+        "zubiks/z5",
+        "zubiks/z6",
+        "zubiks/z7",
+        "zubiks/z8",
+        "zubiks/z9",
+        "zubiks/z10",
+        "zubiks/z11",
+        "zubiks/z12",
+        "zubiks/z13",
+        "zubiks/z14",
+        "zubiks/z15",
+        "zubiks/z16",
+        "zubiks/z17",
+        "zubiks/z18",
+        "zubiks/z19",
+        "zubiks/z20",
+        "zubiks/z21",
+        "zubiks/z22",
+        "zubiks/z23",
+        "zubiks/z24",
+        "zubiks/z25",
+        "zubiks/z26",
+        "zubiks/z27",
+        "zubiks/z28",
+        "zubiks/z31",
+        "zubiks/z33",
+        "zubiks/z34",
+        "zubiks/z35",
+        "zubiks/z36",
+        "zubiks/z38",
+        "zubiks/z41",
       ],
     };
   },
