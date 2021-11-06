@@ -173,8 +173,8 @@
           alt="logo"
         />
         <div class="px-4">
-          <h1 class="font-bold tracking-wider text-2xl text-gray-500">
-            Don-Zubiks Metal LTD
+          <h1 class="donfont font-bold tracking-wider text-2xl text-gray-500">
+            DON-ZUBIKS METAL LTD
           </h1>
           <br />
           <hr />
