@@ -57,9 +57,9 @@
             tracking-widest
           "
         >
-          <h3 class="">WELCOME TO</h3>
-          <h1 class="text-blue-600 font-bold text-4xl">DON-ZUBIKS</h1>
-          <h3>METAL LTD.</h3>
+          <h3 class="welcomefont">WELCOME TO</h3>
+          <h1 class="donfont text-blue-600 font-bold text-4xl">DON-ZUBIKS</h1>
+          <h3 class="welcomefont">METAL LTD.</h3>
           <div class="text-base mt-6 space-x-2">
             <button
               class="
@@ -121,8 +121,8 @@
             <div class="h-1 w-20 bg-blue-300"></div>
             <div class="mt-4 text-gray-700 text-lg space-y-4">
               <p>
-                My name is Azubuike and I am the Chief Executive Officer, CEO,
-                of Don-Zubiks Metal Ltd.
+                My name is Ani Godswill Azubuike and I am the Chief Executive
+                Officer, CEO, of Don-Zubiks Metal Ltd.
               </p>
               <p>
                 Don-Zubiks Metal Ltd is a registered company that deals in all
@@ -143,6 +143,9 @@
             GALLERY
           </h2>
           <div class="h-1 w-20 bg-blue-300"></div>
+          <h3 class="py-4 italic text-gray-600 text-lg tracking-wide">
+            See our creative designs below. We are still creating more...
+          </h3>
           <!-- cards -->
           <div class="mt-12 mb-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div
@@ -275,4 +278,11 @@ export default {
 </script>
 
 <style>
+h3.welcomefont {
+  font-family: Dekko, sans-serif;
+}
+
+h1.donfont {
+  font-family: Limelight, sans-serif;
+}
 </style>

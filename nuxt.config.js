@@ -28,12 +28,24 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
+        '@nuxtjs/google-fonts',
     ],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
         '@nuxtjs/cloudinary'
     ],
+
+    googleFonts: {
+        families: {
+            // a simple name
+            Limelight: true,
+            Dekko: true,
+
+            // a name with spaces
+            // 'Josefin+Sans': true,
+        }
+    },
 
     cloudinary: {
         cloudName: process.env.CLOUDNAME,
