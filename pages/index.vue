@@ -36,16 +36,16 @@
         >
       </div>
     </div>
-    <div
+    <!-- <div
     class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed"
     style="background-image: url('https://res.cloudinary.com/mctony17/image/upload/v1636214505/zubiks/banner4.webp');"
-    >
-    <!-- <div
+    > -->
+    <div
       class="w-full h-screen bg-fixed bg-cover bg-center"
       :style="{
         backgroundImage: `url(${require('@/static/bgimage/banner3.webp')})`,
       }"
-    > -->
+    >
       <div class="h-screen flex flex-col items-center justify-center">
         <section
           class="
