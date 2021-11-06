@@ -36,69 +36,66 @@
         >
       </div>
     </div>
-    <div class="relative w-full h-screen bg-fixed bg-cover bg-center">
-      <img
-        class="w-full h-screen bg-fixed bg-cover bg-center"
-        src="https://res.cloudinary.com/mctony17/image/upload/v1636107610/zubiks/banner3.jpg"
-        alt="backgrod image"
-      />
-    </div>
-    <div class="absolute inset-0">
-      <br /><br /><br /><br /><br><br>
-      <div
-        class="
-          p-2
-          pb-4
-          font-semibold
-          max-w-xl
-          mx-auto
-          tracking-wider
-          text-white text-center
-          mt-64
-          bg-black
-          opacity-75
-          rounded
-        "
-      >
-        <h1 class="text-xl md:text-3xl">Welcome to</h1>
-        <h1 class="text-4xl md:text-5xl text-blue-600">DON-ZUBIKS</h1>
-        <h1 class="text-xl md:text-3xl">Metal LTD</h1>
-        <div class="flex items-center justify-center space-x-8">
-          <button
-            class="
-              mt-6
-              hover:text-gray-400
-              text-white
-              font-semibold
-              tracking-wider
-              py-2
-              px-4
-              rounded-lg
-              border-4
-              focus:outline-none focus:shadow-outline
-            "
-          >
-            <a href="#about">ABOUT US</a>
-          </button>
-          <button
-            class="
-              mt-6
-              bg-blue-500
-              hover:bg-blue-700
-              text-white
-              font-semibold
-              tracking-wider
-              py-2
-              px-4
-              rounded-lg
-              border-4 border-blue-500
-            "
-          >
-            <a href="#gallery">GALLERY</a>
-          </button>
-        </div>
+    <div
+      class="relative w-full h-screen bg-fixed bg-cover bg-center"
+      style="
+        background-image: url('https://res.cloudinary.com/mctony17/image/upload/v1636107610/zubiks/banner3.jpg');
+      "
+    >
+      <div class="h-screen flex flex-col items-center justify-center">
+        <section
+          class="
+            bg-black
+            opacity-75
+            pt-2
+            pb-4
+            px-12
+            rounded-lg
+            text-center text-gray-400
+            font-semibold
+            text-2xl
+            tracking-widest
+          "
+        >
+          <h3 class="">WELCOME TO</h3>
+          <h1 class="text-blue-600 font-bold text-4xl">DON-ZUBIKS</h1>
+          <h3>METAL LTD.</h3>
+          <div class="text-base mt-6 space-x-2">
+            <button
+              class="
+                hover:text-blue-600
+                font-semibold
+                tracking-wider
+                py-2
+                px-4
+                rounded-lg
+                border-4
+                focus:outline-none
+              "
+            >
+              <a href="#about">ABOUT US</a>
+            </button>
+            <button
+              class="
+                bg-blue-500
+                hover:bg-blue-700
+                text-white
+                font-semibold
+                tracking-wider
+                py-2
+                px-4
+                rounded-lg
+                border-4 border-blue-500
+                focus:outline-none
+              "
+            >
+              <a href="#gallery">GALLERY</a>
+            </button>
+          </div>
+        </section>
       </div>
     </div>
+
     <!-- Body -->
     <div class="pt-8 space-y-6">
       <!-- About Us -->
@@ -213,9 +210,10 @@
             </div>
           </div>
         </div>
-        <div>
-          <h3 class="tracking-wider text-center mt-8 italic">
-            Contact the DEVELOPER: matgold17@gmail.com
+        <hr>
+        <div class="px-2">
+          <h3 class="tracking-wider text-sm text-center mt-8 italic">
+            Software developer contact: 08063856120 / matgold17@gmail.com
           </h3>
         </div>
       </div>
