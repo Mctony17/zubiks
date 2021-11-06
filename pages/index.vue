@@ -39,7 +39,7 @@
     <div
       class="w-full h-screen bg-fixed bg-cover bg-center"
       :style="{
-        backgroundImage: `url(${require('@/static/bgimage/banner3.jpg')})`,
+        backgroundImage: `url(${require('@/static/bgimage/banner3.webp')})`,
       }"
     >
       <div class="h-screen flex flex-col items-center justify-center">
