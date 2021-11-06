@@ -239,9 +239,9 @@ export default {
         "zubiks/z4",
         "zubiks/z5",
         "zubiks/z6",
-        "zubiks/z7",
+       
         "zubiks/z8",
-        "zubiks/z9",
+       
         "zubiks/z10",
         "zubiks/z11",
         "zubiks/z12",
