@@ -37,10 +37,10 @@
       </div>
     </div>
     <div
-      class="relative w-full h-screen bg-fixed bg-cover bg-center"
-      style="
-        background-image: url('https://res.cloudinary.com/mctony17/image/upload/v1636107610/zubiks/banner3.jpg');
-      "
+      class="w-full h-screen bg-fixed bg-cover bg-center"
+      :style="{
+        backgroundImage: `url(${require('@/static/bgimage/banner3.jpg')})`,
+      }"
     >
       <div class="h-screen flex flex-col items-center justify-center">
         <section
@@ -210,7 +210,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr />
         <div class="px-2">
           <h3 class="tracking-wider text-sm text-center mt-8 italic">
             Software developer contact: 08063856120 / matgold17@gmail.com
