@@ -26,8 +26,8 @@
         >
         <n-link
           class="text-white md:text-lg font-semibold tracking-wide"
-          to="#gallery"
-          >GALLERY</n-link
+          to="#catalogue"
+          >CATALOGUE</n-link
         >
         <n-link
           class="text-white md:text-lg font-semibold tracking-wide"
@@ -93,7 +93,7 @@
                 focus:outline-none
               "
             >
-              <a href="#gallery">GALLERY</a>
+              <a href="#catalogue">CATALOGUE</a>
             </button>
           </div>
         </section>
@@ -140,15 +140,15 @@
           </div>
         </div>
       </div>
-      <!-- Gallery -->
-      <div id="gallery" class="bg-gray-200">
+      <!-- Catalogue -->
+      <div id="catalogue" class="bg-gray-200">
         <div class="px-3 py-6 max-w-5xl mx-auto">
           <h2 class="mt-8 font-bold text-blue-600 tracking-widest text-2xl">
-            GALLERY
+            CATALOGUE
           </h2>
           <div class="h-1 w-20 bg-blue-300"></div>
           <h3 class="py-4 italic text-gray-600 text-lg tracking-wide">
-            See our creative designs below. We are still creating more...
+            See our creative designs below and we are creating more for your satisfaction...
           </h3>
           <!-- cards -->
           <div class="mt-12 mb-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -238,10 +238,8 @@ export default {
         "zubiks/z3",
         "zubiks/z4",
         "zubiks/z5",
-        "zubiks/z6",
-       
-        "zubiks/z8",
-       
+        "zubiks/z6",       
+        "zubiks/z8",       
         "zubiks/z10",
         "zubiks/z11",
         "zubiks/z12",
@@ -268,6 +266,9 @@ export default {
         "zubiks/z36",
         "zubiks/z38",
         "zubiks/z41",
+        "zubiks/z42",
+        "zubiks/z43",
+        "zubiks/z44",
       ],
     };
   },
