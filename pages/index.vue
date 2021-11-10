@@ -18,19 +18,19 @@
         src="https://res.cloudinary.com/mctony17/image/upload/v1636111973/zubiks/Logopit.png"
         alt="logo"
       />
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center text-base space-x-2">
         <n-link
-          class="text-white md:text-lg font-medium tracking-wide"
+          class="text-white md:text-lg md:font-medium tracking-wide"
           to="#about"
           >ABOUT US</n-link
         >
         <n-link
-          class="text-white md:text-lg font-medium tracking-wide"
+          class="text-white md:text-lg md:font-medium tracking-wide"
           to="#catalogue"
           >CATALOGUE</n-link
         >
         <n-link
-          class="text-white md:text-lg font-medium tracking-wide"
+          class="text-white md:text-lg md:font-medium tracking-wide"
           to="#contact"
           >CONTACT</n-link
         >
@@ -68,10 +68,11 @@
             <button
               class="
                 hover:text-blue-600
-                font-medium
-                tracking-wider
-                py-2
-                px-4
+                md:font-medium
+                tracking-wide
+                md:tracking-wider
+                p-2
+                md:px-4
                 rounded-lg
                 border-2
                 focus:outline-none
@@ -84,10 +85,11 @@
                 bg-blue-500
                 hover:bg-blue-700
                 text-white
-                font-medium
-                tracking-wider
-                py-2
-                px-4
+                md:font-medium
+                tracking-wide
+                md:tracking-wider
+                p-2
+                md:px-4
                 rounded-lg
                 border-4 border-blue-500
                 focus:outline-none
