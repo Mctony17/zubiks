@@ -18,7 +18,7 @@
         src="https://res.cloudinary.com/mctony17/image/upload/v1636111973/zubiks/Logopit.png"
         alt="logo"
       />
-      <div class="flex items-center text-base space-x-2">
+      <div class="flex items-center text-sm space-x-4">
         <n-link
           class="text-white md:text-lg md:font-medium tracking-wide"
           to="#about"
@@ -91,7 +91,7 @@
                 p-2
                 md:px-4
                 rounded-lg
-                border-4 border-blue-500
+                border-2 border-blue-500
                 focus:outline-none
               "
             >
